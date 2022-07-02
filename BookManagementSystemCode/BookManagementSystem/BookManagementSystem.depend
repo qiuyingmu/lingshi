@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1654419707 source:c:\users\qiuyingmu\desktop\bookmanagementsystem\bookmanagementsystemcode\bookmanagementsystem\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1654419707 source:d:\bookmanagementsystem\bookmanagementsystemcode\bookmanagementsystem\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1654419707 source:d:\code\bookmanagementsystem\bookmanagementsystemcode\bookmanagementsystem\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
