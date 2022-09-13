@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="TheAddressBook" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/TheAddressBook" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/TheAddressBook" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="AddContact.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="AddContact.h" />
+		<Unit filename="AddressBook.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="AddressBook.h" />
+		<Unit filename="ChangeInformation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ChangeInformation.h" />
+		<Unit filename="ContactsInformation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ContactsInformation.h" />
+		<Unit filename="DeleteContact.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="DeleteContact.h" />
+		<Unit filename="EmptyAddressBook.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="EmptyAddressBook.h" />
+		<Unit filename="InitAndStoreAddressBook.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="InitAndStoreAddressBook.h" />
+		<Unit filename="Print.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Print.h" />
+		<Unit filename="Query.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Query.h" />
+		<Unit filename="ScanInformation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ScanInformation.h" />
+		<Unit filename="ShowAllContacts.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ShowAllContacts.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
